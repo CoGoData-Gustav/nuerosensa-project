@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Device Company</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/contact.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <!-- Placeholder for the company logo -->
+            <img src="images/NeuroSensa_Logo_Small.png" alt="Company Logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">&#9776;</button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="background-image"></div>
+        <h1>OBJECTIVE PAIN ASSESSMENT TOOL</h1>
+        <p>Our mission is to improve lives with innovative medical devices.</p>
+        <img src="images/devices_notext.png" alt="Home Image">
+        <p>[Short paragraph about your company]</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-images">
+            <div class="product">
+                <img src="images/design.png" alt="Product 1">
+                <p>Product 1 Description</p>
+            </div>
+            <div class="product">
+                <img src="images/girl.png" alt="Product 2">
+                <p>Product 2 Description</p>
+            </div>
+            <div class="product">
+                <img src="images/timeline.png" alt="Product 3">
+                <p>Product 3 Description</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
