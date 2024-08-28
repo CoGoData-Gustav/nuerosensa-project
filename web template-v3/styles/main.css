@@ -26,7 +26,7 @@ img {
     height: auto;
 }
 
-
+/* Section formatting */
 section {
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@ h2 {
     margin-bottom: 0%;
 }
 
-/* Header */
+
 header {
     background-color: #f5fbff;
     padding: 10px;
@@ -63,7 +63,7 @@ header .logo img {
     height: 25px;
 }
 
-/* Navigation */
+/* Navigation bar */
 nav ul {
     list-style: none;
     display: flex;
@@ -81,63 +81,31 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* INTRO SECTION */
-
+/* INTRO (HERO) SECTION */
 .section-hero {
     background-image: url('../images/header.jpg');   
         }
 
-/* Centers the intro section paragraph text */
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
 .section-hero p {
     margin-bottom: 40px;
     width: 55%;
-    margin-left: auto;
-    margin-right: auto; 
     text-align: center; 
 }
 
-/* Big NeuroSensa image size */
 .section-hero img{
     width: 650px;
 }
 
-/* ABOUT SECTION  - OLD CODE
-
-.section-about {
-    background-image: url('../images/bg1.jpg');
-}
-
-.about-us-span {
-    color: #44709C;
-    font-weight: bold;
-
-}
-
-.about-us-content p {
-    margin-top: 0px;
-    margin-bottom: 40px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: left; 
-}
-
-.about-us-content h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: left; 
-}
-
-.about-us-content img {
-    width:  500px;
-    float: right;
-}
-*/
-
-/* About Us Section  - Flexbot code */
+/* ABOUT US SECTION */
 .section-about {
     background-image: url('../images/bg1.jpg'); /* Background image */
 }
@@ -162,7 +130,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-
 .about-text p {
     margin-bottom: 40px;
     margin-top: 5px;
@@ -183,45 +150,37 @@ nav ul li a {
 
 .section-mission {
     background-image: url('../images/bg3.jpg');
-    height: 40%;
 }
 
-.mission-span {
+.mission-content h2 span {
     color: #44709C;
     font-weight: bold;
 }
 
-.mission-content p {
-    margin-top: 0px;
+
+.mission-content {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.mission-content p{
     margin-bottom: 40px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: left; 
+    margin-top: 5px;
 }
 
-.mission-content h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: left; 
-}
-
-.mission-content img {
-    width:  40%;
+.mission-content img{
     float: right;
-    margin-left: auto;
-    margin-right: auto;
-    
+    width: 450px;
 }
 
+/* Foooter */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #f5fbff;
     text-align: center;
     padding: 20px;
+    font-size: 0.6em;
 }
 
 footer nav ul {
@@ -237,8 +196,9 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    color: #fff;
+    color: #f5fbff;
     text-decoration: none;
+    font-weight: 300;
 }
 
 footer p {
