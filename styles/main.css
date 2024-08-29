@@ -1,0 +1,442 @@
+/* GLOBAL CSS PROPERTIES */
+
+/* All the basics - font family, colour, size, etc */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4A4D4F;
+    font-weight: 300;
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+/* Button design - standard*/
+.btn {
+    background-color: #2b5783;
+    color: #f5fbff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+/* For screen reduction purposes (reactivity)*/
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Section formatting */
+section {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 0%;
+}
+
+h3 {
+    text-transform: uppercase;
+    /* font-size: 2em; */
+    font-weight: lighter;
+    margin-bottom: 0%;
+}
+
+span {
+    color: #44709C;
+    font-weight: bold;
+}
+
+
+header {
+    background-color: #f5fbff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+header .logo img {
+    height: 25px;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #44709C ;
+    text-decoration: none;
+}
+
+/* INTRO (HERO) SECTION */
+.section-hero {
+    background-image: url('../images/header.jpg');   
+        }
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.section-hero p {
+    margin-bottom: 40px;
+    width: 55%;
+    text-align: center; 
+}
+
+.section-hero img{
+    width: 650px;
+}
+
+/* HOME - ABOUT US SECTION */
+.section-about {
+    background-image: url('../images/bg1.jpg'); /* Background image */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0px;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+}
+
+/* .about-text h2 span {
+    color: #44709C;
+    font-weight: bold;
+} */
+
+.about-text p {
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.about-image img {
+    width: 400px;
+    border-radius: 8px; /* Optional: Add some border-radius for styling */
+}
+
+
+/* HOME - MISSION SECTION */
+
+.section-mission {
+    background-image: url('../images/bg3.jpg');
+}
+
+/* .mission-content h2 span {
+    color: #44709C;
+    font-weight: bold;
+} */
+
+
+.mission-content {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.mission-content p{
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+.mission-content img{
+    float: right;
+    width: 450px;
+}
+
+/* Foooter */
+footer {
+    background-color: #333;
+    color: #f5fbff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.6em;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #f5fbff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*  PRODUCTS - REVOLUTIONARY TOOL */
+
+.section-tool {
+    background-image: url('../images/bg1.jpg'); /* Background image */
+}
+
+.tool-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0px;
+}
+
+.tool-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+}
+
+
+.tool-text p {
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
+.tool-text img {
+    width: 90%;
+}
+
+
+.tool-images {
+    flex: 1;
+    max-width: 50%;
+}
+
+.tool-images img {
+    width: 400px;
+    border-radius: 8px; /* Optional: Add some border-radius for styling */
+}
+
+/*  PRODUCTS - METHODS */
+
+.section-methods {
+    background-image: url('../images/bg3.jpg'); /* Background image */
+}
+
+.methods-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0px;
+}
+
+
+.methods-content img {
+    width: 80%;
+    border-radius: 8px; /* Optional: Add some border-radius for styling */
+}
+
+/*  PRODUCTS - TREATMENT */
+
+.section-treatment {
+    background-image: url('../images/bg2.jpg'); /* Background image */
+}
+
+.treatment-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0px;
+    flex-direction: column;
+}
+
+.treatment-text {
+    flex: 1;
+    max-width: 80%;
+    text-align: left;
+
+}
+.treatment-text p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.treatment-image {
+    width: 80%;
+}
+
+/*  CONTACT PAGE */
+
+
+/* Contact Form Details */
+
+.section-contact {
+    background-image: url('../images/header.jpg');  
+}
+
+/* contact - upper text */
+.contact-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column; 
+}
+
+.contact-text p {
+    margin-bottom: 40px;
+    width: 55%;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.contact-text img{
+    width: 650px;
+}
+
+/* Contact - form */
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #4A4D4F ; /* Light background with some transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    margin-bottom: 10px;
+    font-weight: bolder ;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #c1cfdd;
+    border-radius: 10px;
+    background-color: #F5FBFF;
+    color: #4A4D4F;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    opacity: 0.8;
+    font-weight: 600;
+
+}
+
+.form-group input {
+    max-width: 48%; /* Ensure that the two input fields are side by side */
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 150px;
+}
+
+
+#contact-form button {
+    background-color: #F5FBFF;
+    color: #4A4D4F;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    transition: backgorund-color 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    color: #2b5783;
+    background-color: #b3cee9;
+}
+
+
+/* Contact - Adress */
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column; 
+    margin-top: 50px;
+    gap: 0px;
+}
+
+.contact-info a {
+    text-transform: lowercase;
+    color: #2b5783;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    
+}
