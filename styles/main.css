@@ -1,6 +1,4 @@
 /* GLOBAL CSS PROPERTIES */
-
-/* All the basics - font family, colour, size, etc */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -35,6 +33,7 @@ section {
     padding: 100px 20px;
 }
 
+/* Tag formatting */
 a {
     text-transform: uppercase;
 }
@@ -52,7 +51,6 @@ h2 {
 
 h3 {
     text-transform: uppercase;
-    /* font-size: 2em; */
     font-weight: lighter;
     margin-bottom: 0%;
 }
@@ -62,7 +60,7 @@ span {
     font-weight: bold;
 }
 
-
+/* Header */
 header {
     background-color: #f5fbff;
     padding: 10px;
@@ -138,11 +136,6 @@ nav ul li a {
     text-align: left;
 }
 
-/* .about-text h2 span {
-    color: #44709C;
-    font-weight: bold;
-} */
-
 .about-text p {
     margin-bottom: 40px;
     margin-top: 5px;
@@ -155,9 +148,8 @@ nav ul li a {
 
 .about-image img {
     width: 400px;
-    border-radius: 8px; /* Optional: Add some border-radius for styling */
+    border-radius: 8px; /* For round styling */
 }
-
 
 /* HOME - MISSION SECTION */
 
@@ -165,26 +157,35 @@ nav ul li a {
     background-image: url('../images/bg3.jpg');
 }
 
-/* .mission-content h2 span {
-    color: #44709C;
-    font-weight: bold;
-} */
-
-
 .mission-content {
-    width: 100%;
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0px;
+    flex-direction: row;
+}
+
+.mission-text {
+    flex: 1;
+    max-width: 50%;
     text-align: left;
 }
 
-.mission-content p{
+.mission-text p {
     margin-bottom: 40px;
     margin-top: 5px;
 }
 
-.mission-content img{
-    float: right;
+.mission-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.mission-image img {
     width: 450px;
+    border-radius: 8px; /* For round styling */
 }
 
 /* Foooter */
@@ -257,7 +258,7 @@ footer p {
 
 .tool-images img {
     width: 400px;
-    border-radius: 8px; /* Optional: Add some border-radius for styling */
+    border-radius: 8px;
 }
 
 /*  PRODUCTS - METHODS */
@@ -275,10 +276,9 @@ footer p {
     gap: 0px;
 }
 
-
 .methods-content img {
     width: 80%;
-    border-radius: 8px; /* Optional: Add some border-radius for styling */
+    border-radius: 8px;
 }
 
 /*  PRODUCTS - TREATMENT */
@@ -314,14 +314,13 @@ footer p {
 
 /*  CONTACT PAGE */
 
-
-/* Contact Form Details */
+/* Contact form details */
 
 .section-contact {
     background-image: url('../images/header.jpg');  
 }
 
-/* contact - upper text */
+/* Upper text */
 .contact-text{
     display: flex;
     align-items: center;
@@ -342,8 +341,7 @@ footer p {
     width: 650px;
 }
 
-/* Contact - form */
-
+/* Form */
 #contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -416,7 +414,7 @@ footer p {
 }
 
 
-/* Contact - Adress */
+/* Adress */
 .contact-info{
     display: flex;
     align-items: center;
