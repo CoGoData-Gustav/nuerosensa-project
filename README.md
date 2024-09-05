@@ -1,6 +1,6 @@
 # Project 1: Marketing Website
 
-The website can be viewed [here](3.139.102.106)
+The website can be viewed [here](https://3.139.102.106)
 
 ## File descriptions
 
