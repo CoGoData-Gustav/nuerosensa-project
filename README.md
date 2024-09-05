@@ -1,5 +1,7 @@
 # Project 1: Marketing Website
 
+The website can be viewed [here](3.139.102.106)
+
 ## File descriptions
 
 1. _index.html_ - HLTM file that contains the "Home page" code.
