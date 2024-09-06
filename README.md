@@ -1,6 +1,6 @@
 # Project 1: Marketing Website
 
-The website can be viewed [here](https://3.139.102.106).
+The public IPv4 address is: 3.139.102.106. To view the website, please copy and paste it into a browser window.
 
 ## File descriptions
 
