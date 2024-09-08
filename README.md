@@ -56,3 +56,14 @@ _Note: The "dashboard_screenshots" folder contains screenshots of the dashboard.
 - Flask is a Python web framework, so much of the backend logic, including data processing, manipulation, and validation, is written in Python.
 - As mentioned, HTML is essential for the construction of web pages.
 - CSS allows for customization and the design of web pages.
+
+## Notes on Dashboard Design
+
+The "flow" dashboard was designed roughly in the following manner:
+
+- **High-Level Data KPIs**: Total Patients, Total Scans, etc. (displayed in value boxes).
+- **Patient Demographic Information**: Visualizations about patient demographics, for example, age distribution of patients.
+- **Patient Values**: Visualizations that incorporate both demographics and the values of patient scans, for example, "Scan Values of Patients over time grouped by Nationality."
+
+
+
