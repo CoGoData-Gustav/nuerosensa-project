@@ -30,7 +30,7 @@ The public IPv4 address is: 3.139.102.106. To view the website, please copy and 
 
 **Instructions to Run the Flask App:**
 
-1. Download the entire "ns_dashboard_v4" folder.
+1. Download the entire "ns_dashboard_v5" folder.
 2. Open the folder in your preferred IDE.
 3. Run the Python file `app.py`.
 
