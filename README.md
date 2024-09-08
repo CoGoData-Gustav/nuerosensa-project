@@ -1,26 +1,46 @@
 # Project 1: Marketing Website
 
-The public IPv4 address is: 3.139.102.106. To view the website, please copy and paste it into a browser window.
+The public IPv4 address is: 3.139.102.106. To view the website, please copy and paste this address into a browser.
 
-## File descriptions
+## File Descriptions
 
-1. _index.html_ - HLTM file that contains the "Home page" code.
-2. _products.html_- HLTM file that contains the "Products page" code.
-3. _contact.html_ - HLTM file that contains the "Contacts page" code.
-4. _styles/main.css_ - CSS file that contains the CSS style for the entire website. The comments roughly reffers to each section.
-5. _scripts/contact.js_ - JS file for form submission.
-6. _Images/..._ - folder containing all imgaes ("Creative Assets" provided)
+1. **_index.html_** - HTML file that contains the code for the "Home" page.
+2. **_products.html_** - HTML file that contains the code for the "Products" page.
+3. **_contact.html_** - HTML file that contains the code for the "Contact" page.
+4. **_styles/main.css_** - CSS file that styles the entire website. The comments roughly reference each section.
+5. **_scripts/contact.js_** - JavaScript file that handles form submissions.
+6. **_Images/..._** - Folder containing all images (creative assets provided).
 
-## Rationality behind design
+## Rationale Behind Design
 
-IDE - **Visual Studio Code**
-- VS Code has a vast marketplace of extensions, allowing you to add support for different programming languages, frameworks, linters, debuggers, etc.
-- Build in Git Integration, which also provides to oppertunity of utilizing Copilot.
+**IDE - Visual Studio Code**
+- VS Code has a vast marketplace of extensions, allowing support for various programming languages, frameworks, linters, debuggers, and more.
+- Built-in Git integration, which provides the opportunity to use GitHub Copilot.
 - Performance: VS Code is designed to be lightweight, meaning it loads quickly and consumes fewer system resources compared to many traditional IDEs.
 
-Web languages - **HTML, CSS, and JavaScript**
-- Widely supported and used (all three languages - but specifically JavaScript)
-- HTML is the foundation of web pages, universally supported across all browsers.
-- CSS allows for responsive designs that adapt to different screen sizes - which is going to be essential for the neurosensa device.
-- Javascript has an extensive ecosystem with numerous libraries and frameworks (e.g., React, Angular, Vue.js)
+**Web Technologies - HTML, CSS, and JavaScript**
+- Widely supported and widely used, especially JavaScript.
+- HTML is the foundation of web pages and is universally supported across all browsers.
+- CSS enables responsive designs that adapt to different screen sizes, which is essential for the Neurosensa device.
+- JavaScript has an extensive ecosystem with numerous libraries and frameworks (e.g., React, Angular, Vue.js).
 
+---
+
+# Project 2: Analytics Dashboard
+
+**Instructions to Run the Flask App:**
+
+1. Download the entire "ns_dashboard_v4" folder.
+2. Open the folder in your preferred IDE.
+3. Run the Python file `app.py`.
+
+_Note: The "dashboard_screenshots" folder contains screenshots of the dashboard._
+
+## File Descriptions (Relevant Files Only)
+
+1. **data/patients_data.csv** - Pre-loaded dataset that combines "data_values.csv" with "patient_demographics.csv."
+2. **static/css/dash.css** - CSS file that contains the styling for the dashboard.
+3. **static/css/images** - Folder containing images provided in the "Assets" folder.
+4. **templates/dashboard.html** - HTML file containing the structure and code for the dashboard.
+5. **app.py** - Python script that runs the Flask app.
+6. **requirements.txt** - File listing the dependencies
