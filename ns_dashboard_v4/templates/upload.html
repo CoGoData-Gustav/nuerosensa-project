@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dash.css') }}">
+    <!-- Include FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/NeuroSensa_Logo_Small.png') }}" alt="Company Logo" class="logo"> <!-- Company Logo -->
+    </div>
+    <nav>
+        <ul>
+            <li><a href="http://3.139.102.106/">home</a></li>
+            <li><a href="http://3.139.102.106/products.html">products</a></li>
+            <li><a href="http://3.139.102.106/contact.html">contact</a></li>
+            <li><a href="#admin">admin</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <h1>Upload Data File</h1>
+
+    <section class="section-upload">
+      <div class="upload-text">
+          <img src="{{ url_for('static', filename='images/NeuroSensa_Logo_M.png') }}" alt="NeuroSensa Logo Medium"> 
+          <h2>upload data File</h2>
+      <div>
+      <div class= "upload-file"> 
+        <form action="/" method="POST" enctype="multipart/form-data">
+          <input type="file" name="file" accept=".csv">
+          <input type="submit" value="Upload">
+        </form>
+      </div>
+      
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          <ul>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endwith %}
+    
+    </section>
+
+      <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="#admin">admin</a></li>
+            </ul>
+        </nav>
+        <p>&copy; NeuroSensa LLC | All Rights Reserved.</p>
+    </footer>
+
+
+    
+    
+</body>
+</html>
