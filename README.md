@@ -44,3 +44,15 @@ _Note: The "dashboard_screenshots" folder contains screenshots of the dashboard.
 4. **templates/dashboard.html** - HTML file containing the structure and code for the dashboard.
 5. **app.py** - Python script that runs the Flask app.
 6. **requirements.txt** - File listing the dependencies
+
+## Rationale Behind Web Development Framework for the Dashboard Application
+
+**Web Development Framework - Flask**
+- Flask is a microframework, meaning it has a small core but allows for extensive customization and flexibility.
+- Flask has a gentle learning curve, making it an excellent choice for beginners or for quickly prototyping web applications.
+- Unlike larger frameworks like Django, Flask gives developers full control over the components they use and how they structure their application.
+
+**Programming Languages - Python, HTML, CSS**
+- Flask is a Python web framework, so much of the backend logic, including data processing, manipulation, and validation, is written in Python.
+- As mentioned, HTML is essential for the construction of web pages.
+- CSS allows for customization and the design of web pages.
